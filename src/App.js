@@ -1,12 +1,12 @@
 import React from 'react';
-import Header from './componentes/Header';
+import TimelineHeader from './componentes/TimelineHeader';
 import Timeline from './componentes/Timeline';
 
 function App() {
   return (
     <div id="root">
       <div className="main">
-        <Header />
+        <TimelineHeader />
         <Timeline />
       </div> 
     </div> 
